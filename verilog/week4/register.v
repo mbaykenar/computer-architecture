@@ -4,7 +4,7 @@ module register
 input clk,
 input rstn,
 input [N-1:0] d_i,
-output [N-1:0] q_o
+output reg [N-1:0] q_o
 );
 
 always @(posedge clk) begin
